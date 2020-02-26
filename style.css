@@ -1,0 +1,108 @@
+body {background-color: #FFDBC5;
+      color: #FFDBC5; 
+      font-size: 22px;
+      font-weight: lighter;
+      font-family: 'Questrial', sans-serif;
+}
+a {text-decoration: none;
+	color: #DF7861;
+	font-weight: bold;
+	font-size: 20px;
+}
+h1 {letter-spacing: 8px;
+    text-align: center;
+    color: #EF4339; 
+    font-family: 'Economica', sans-serif;
+    font-size: 40px;
+
+}
+h2 {text-align: center;
+	font-family: open sans condensed;
+	color: #EF4339;
+	font-size: 30px;
+}
+
+a:hover {color: #FFDBC5;
+	     font-weight: bold;
+	     font-size: 20px;
+}
+
+
+
+#div-dashed {
+	border: 2px dashed black;
+	margin: 10px auto;
+	padding: 20px 10px;
+	border-radius: 10px;
+	width: 700px;
+	background-color: #FF9D76;
+	text-align: center;
+}
+
+#div-shadow-width {
+	border: 1px solid black; 
+	margin: 0px auto;
+	border-radius: 50px;
+	width: 300px;
+	box-shadow: 0 10px 30px black;
+	background-color: #FF9D76;
+}
+
+.div-solid {
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px auto;
+	width: 1200px;
+	background-color: #FF9D76;
+}
+
+#logo {
+	border-radius: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 200px;
+}
+
+.container {
+
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		background-color: 400px;
+	}
+}
+
+.list-inline{
+list-style: none;
+text-align: center;
+padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.btn-pink {
+	background-color: #EF4339;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+.btn-pink:hover {
+	background-color: black;
+	color: white;
+	}
+
+#introduction p {
+	margin-bottom: 40px;
+}
